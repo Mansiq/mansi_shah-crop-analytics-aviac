@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Shah - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div style="height: 2px;"></div>
+
+    <header id="box-1">
+        <img src="Mansi.png" alt="Mansi" class="logo">  
+    </header>
+
+    <!-- 1st grey box html -->
+    <div class="grey-box">
+        <div class="grey-box-1-content">
+            <p><span class="highlight">Hi, My name is Mansi Shah. Thanks for visiting my Webpage. This page showcases my projects at Internship in Aviac Technologies (IIT Hyderabad)and ISRO Ahmedabad. </span></p>
+
+            <p class="black-text">Computer Vision for AgriTech</p>
+
+            <div class="link-box-1">
+                <a href="#box-2" class="no-underline">Crop Segmentation using Vegetation Mask</a>
+            </div>
+            <div class="link-box-1">
+                <a href="#box-4" class="no-underline">Crops Identification and Classification using CV2 Python Library</a>
+            </div>
+            <div class="link-box-1">
+                <a href="#box-3" class="no-underline">Crops Nutrients Prediction - Project at ISRO</a>
+            </div>
+        </div>
+
+        <div class="grey-box-1-image">
+            <img id="main-image" src="image.png" alt="Image 1">
+        </div>
+    </div>
+
+    <!-- Gap between 1st and 2nd grey box html -->
+    <p id="box-2"><br><br></p>
+
+    <!-- 2nd grey box html -->
+    <div class="grey-box">
+        <div class="grey-box-2-content">
+            <p><span class="highlight">The project segments green crops from drone images into individual plots for detailed analysis. Using Python libraries like Rasterio and Geopandas, it calculates the (NDVI), applies a threshold to create a vegetation mask, and uses contours to detect boundaries, which are converted into polygons. Further analysis, such as calculating the mean NDVI, assesses crop health and predicts yield.<br></span></p> 
+            <div class="link-box-2">
+                <a href="#box-1" class="no-underline">Back</a>
+            </div>
+            <div class="link-box-2">
+                <a href="#" id="fullscreen-pdf-button" class="no-underline">Fullscreen</a>
+            </div>
+        </div>
+
+        <div class="grey-box-2-pdf">
+            <iframe id="pdf-viewer" src="Crop_Analytics.pdf#toolbar=0" frameborder="0" allowfullscreen></iframe><br>
+        </div>
+    </div>
+
+    <!-- Gap between 2nd and 3rd grey box html -->
+    <p id="box-3"><br><br></p>
+
+<!-- 3rd grey box html -->
+<div class="grey-box-for-3-4">
+    <div class="grey-box-3-pdf">
+        <p><span class="navy-text">Project at Space Application Center ISRO</span></p>
+        <!-- Set the src attribute to display the PDF by default -->
+        <iframe id="pdf-viewer" src="ISRO - MANSI.pdf#toolbar=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- Gap between 3rd and 4th grey box html -->
+    <p id="box-4"><br><br></p>
+
+<!-- 4th grey box html -->
+<div class="grey-box-for-3-4">
+    <div class="grey-box-video">
+        <p><span class="navy-text">Crops classification using CV2 Python Library</span></p>
+        <video id="video-player" controls>
+            <source src="Crop Id CV2 Python Project.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<p id="box-5"><br><br></p>
+    <script src="script.js"></script>
+</body>
+</html>
